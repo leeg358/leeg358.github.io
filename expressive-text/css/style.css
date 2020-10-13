@@ -1,0 +1,296 @@
+body{
+    background: linear-gradient(180deg, #000003 0%, #0b0b5d 33%, #247bcc 60%, #6dfffa 80%, #d5f8ff 97%);
+}
+
+
+#title-container{
+    width: 75vw;
+    height:100vh;
+    margin: auto;
+    position: relative;
+    top: 150px;
+
+    cursor: default;
+}
+
+#poem-title{
+    font-size: 14.1vw;
+    font-family: 'Poppins';
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 10px;
+
+    animation:color-change 4s infinite;
+ 
+}
+
+@keyframes color-change{
+    0% {color: #247bcc;
+        text-shadow: 0px 0px 150px #247bcc;
+    }
+    25% {color:#6dfffa;
+        text-shadow: 0px 0px 150px #6dfffa;
+    }
+    50% {color: #d5f8ff;
+        text-shadow: 0px 0px 150px #d5f8ff
+    }
+    75% {color:#6dfffa;
+        text-shadow: 0px 0px 150px #6dfffa
+    }
+    100% {color: #247bcc;
+        text-shadow: 0px 0px 150px #247bcc
+    } 
+}
+
+@keyframes color-change-two{
+    0% {color: #247bcc;
+        text-shadow: 0px 0px 20px #247bcc;
+    }
+    25% {color:#6dfffa;
+        text-shadow: 0px 0px 20px #6dfffa;
+    }
+    50% {color: #d5f8ff;
+        text-shadow: 0px 0px 20px #d5f8ff
+    }
+    75% {color:#6dfffa;
+        text-shadow: 0px 0px 20px #6dfffa
+    }
+    100% {color: #247bcc;
+        text-shadow: 0px 0px 20px #247bcc
+    } 
+}
+
+
+#author{
+    font-size: 2vw;
+    font-family: 'Poppins';
+    color: whitesmoke;
+    text-align: -webkit-right;
+    position: relative;
+    top: -25px;
+
+}
+
+/*POEM*/
+#first-verse{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: 1px;
+
+}
+
+#second-verse{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #0b0b5d;
+}
+
+#middle{
+    text-align: center;
+    cursor: default;
+}
+
+.asterisk{
+    display: inline-block;
+    font-family: 'Poppins';
+    font-size: 200px;
+    padding: 30px;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom:-50px;
+
+    animation: rotation 3s infinite linear, color-change 5s infinite;
+
+}
+
+@keyframes rotation{
+    from{transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(359deg);
+    }
+}
+
+/*HOVER*/
+
+#author:hover{
+    text-shadow: 0px 0px 50px whitesmoke;
+    transition: .5s ease-in-out;
+}
+
+#line-01:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-02:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-03:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-04:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-05:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-06:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-07:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-08:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-09:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-10:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-11:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-12:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-13:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-14:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-15:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-16:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-17:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-18:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-19:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-20:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-21:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-22:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-23:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-24:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-25:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-02:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-26:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-27:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-28:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-29:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-30:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-31:hover {   
+    animation:color-change-two 6s infinite;
+    font-style: italic;
+    cursor: default;
+}
+#line-32:hover {   
+    animation:color-change-two 3s infinite;
+    font-style: italic;
+    cursor: default;
+}
+
+
+
+
+
+
