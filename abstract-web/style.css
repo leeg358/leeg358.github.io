@@ -89,6 +89,35 @@ a:link{
     text-decoration: none;
 }
 
+#manage-profiles{
+    position: relative;
+    top: 75;
+
+    width: 15vw;
+    height: 3vw;
+    min-height: 40px;
+    min-width: 80px;
+    text-align: center;
+
+    line-height: 40px;
+
+    font-family: helvetica;
+    font-size: 1.2vw;
+    color: gray;
+    border: 2px solid gray;
+
+    cursor: pointer;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#manage-profiles:hover{
+    color:white;
+    border: 2px solid white;
+}
+
+
 
 
 
