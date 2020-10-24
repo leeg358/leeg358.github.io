@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    background: white;
+}
+
+#logo{
+    height: 100%;
+    width: 128px;
+    margin: 0 25 0 0;
+    display: inline-block;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 30px;
+    color: tomato;
+    }
+    
+h2{
+    font-family: helvetica;
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+}
+    
+#header{
+    height:70px;
+    width: 100vw;
+    background: black;
+    padding: 15px 40px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#left-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#right-header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.right-tabs{
+    font-family: helvetica;
+    font-size: 14px;
+    color: white;
+}
+    
+#search{
+    width: 40px;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+    min-width:40px;
+    align-items: flex-end;
+    position: relative;
+    
+    transform: scale(0.6, 0.6);
+}
+    
+    
+#bell{
+    width: 40px;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+    min-width:40px;
+    align-items: flex-end;
+    position: relative;
+    
+    transform: scale(0.6, 0.6);
+}
+    
+#present{
+    width: 40px;
+    height: 100%;
+    background: white;
+    border-radius: 50%;
+    min-width:40px;
+    align-items: flex-end;
+    position: relative;
+    
+    transform: scale(0.6, 0.6);
+}
+    
+    
+#account{
+    width: 40px;
+    height: 100%;
+    background: tomato;
+    margin-left: 10%;
+    border-radius: 7%;
+    min-width:40px;
+    align-items: flex-end;
+    position: relative;
+}
+
+#main-video{
+    width:100%;
+    height:550px;
+    background: lightyellow;
+}
+
+#video-strip{
+    width: 100%;
+    height: 200px;
+    padding: 15px 40 20 40;
+    box-sizing: border-box;
+    background: black;
+}
+
+.video-category ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    overflow-x: scroll;
+    padding: 0;
+}
+
+/* .video-category header{
+    height:40px;
+    width: 20%;
+    
+    color: white;
+    margin-bottom: 10px;
+} */
+
+.row-heading{
+    font-family: helvetica;
+    font-size: 20px;
+    color: white;
+}
+
+.video-category li{
+    height: 120px;
+    width: 210px;
+    min-width: 200px;
+    background: gray;
+    margin-right: 10px;
+
+} 
