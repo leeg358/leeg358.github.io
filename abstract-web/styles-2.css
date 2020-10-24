@@ -112,10 +112,43 @@ h2{
 }
 
 #play-button{
+    position: absolute;
+    width: 8vw;
+    height: 3vw;
+    min-height: 40px;
+    min-width: 80px;
+    text-align: center;
+    top: 480px;
+    left: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+
     font-family: helvetica;
     font-size: 20px;
     background: white;
+
+    cursor: pointer;
 }
+
+#more-info-button{
+    position: absolute;
+    width: 15vw;
+    height: 3vw;
+    min-height: 40px;
+    min-width: 126px;
+    text-align: center;
+    top: 480px;
+    left: 180px;
+    line-height: 40px;
+    border-radius: 10px;
+
+    font-family: helvetica;
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
 
 #video-strip{
     width: 100%;
