@@ -22,18 +22,18 @@ body{
     display: flex;
     justify-content: center;
     padding: 0;
+    flex-wrap:wrap;
 }
 
 .profile{
     display: table-cell;
     border-collapse: separate;
-    border-spacing: 10px; 
-
-    
+    border-spacing: 10px;  
 }
 
 .user-icon{
     height: 17vh;
+
     width: 17vh;
     border-radius: 7%;
     
@@ -117,7 +117,43 @@ a:link{
     border: 2px solid white;
 }
 
+/* Mobile */
+@media (max-width:768px){
+    #user-select{
+        flex-wrap: wrap;
+        flex-basis: 50%;
+    }
 
+    #profile-page{
+        font-size: 30px;
+        margin-top: 15vh;
+    }
+
+    .username{
+        font-size: 14px;
+    }
+
+    .user-icon{
+        height: 13vh;
+        width: 13vh;
+    }
+
+    #manage-profiles{
+        top: 45;
+
+        width: 40vw;
+        height: 3vw;
+        min-height: 40px;
+        min-width: 80px;
+
+        font-size: 12px;
+        
+        border: 1px solid gray;
+    }
+
+
+
+}
 
 
 
