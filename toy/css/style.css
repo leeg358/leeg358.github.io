@@ -1,33 +1,11 @@
 body{
     margin: 0;
+    background: transparent;
 }
 h1{
     font-family: helvetica;
-    font-size: 18px;
-    
+    font-size: 18px; 
 }
-
-/* #high-energy{
-    margin: auto;
-    width: 50%;
-} */
-
-/* #low-energy{
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0px;
-} */
-
-/* #positive{
-    transform: rotate(-90deg);
-    position: absolute;
-    margin: -4 0 0 -70;
-    top: 50vh;
-    left: 100%;
-}
-*/
-
 .labels{
     width: 100vw;
     height: 100vh;
@@ -53,19 +31,15 @@ h1{
     right: 50%;
     margin: 0 -18 0 0;
     transform: rotate(-90deg);
-
 }
 
 #container{
     width: calc(100vw - 5em);
     height: calc(100vh - 5em);
-    /* background-color: lightblue; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
- 
-
 }
 
 #low-energy{
