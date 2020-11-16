@@ -149,10 +149,10 @@ window.addEventListener("load", function() {
         }
         //15
         if (fifteen == true){
-            document.getElementById("fifteen-color").style.display="block";
+            document.getElementById("fifteen-video").style.display="block";
         }
         else{
-            document.getElementById("fifteen-color").style.display="none";
+            document.getElementById("fifteen-video").style.display="none";
         }
       
     }

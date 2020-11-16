@@ -66,83 +66,83 @@ h1{
     right:0;
 }
 #zero-color{
-    background-color: #901414;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #one-color{
-    background-color: #E87433;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #two-color{
-    background-color: #FFC046;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #three-color{
-    background-color: #FFF500;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #four-color{
-    background-color: #B95E9F;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #five-color{
-    background-color: #D66E75;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #six-color{
-    background-color: #E79466;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #seven-color{
-    background-color: #DAEB1A;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #eight-color{
-    background-color: #6B5EB9;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 
 #nine-color{
-    background-color: #9B84B8;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #ten-color{
-    background-color: #A2EEE5;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #eleven-color{
-    background-color: #B4CE6A;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #twelve-color{
-    background-color: #5E88B9;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #thirteen-color{
-    background-color: #5EA9B9;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #fourteen-color{
-    background-color: #5EB99E;
+    background-color: white;
     z-index: -1;
     display: none;
 }
 #fifteen-color{
-    background-color: #96D191;
+    background-color:white;
     z-index: -1;
     display: none;
 }
@@ -192,6 +192,17 @@ h1{
 }
 
 #thirteen-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#fifteen-video{
     object-fit: cover;
     width: 100vw;
     height: 100vh;
