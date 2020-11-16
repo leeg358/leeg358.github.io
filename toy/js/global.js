@@ -267,10 +267,10 @@ window.addEventListener("resize", function() {
         }
         //7
         if (four == true && x > leftRightQuarter*3){
-            document.getElementById("seven-color").style.display="block";        
+            document.getElementById("seven-video").style.display="block";        
         }
         else{
-            document.getElementById("seven-color").style.display="none";
+            document.getElementById("seven-video").style.display="none";
         }
         //8
         if (eight == true && x < leftRightQuarter){
@@ -281,10 +281,10 @@ window.addEventListener("resize", function() {
         }
         //9
         if (eight == true && one == true){
-            document.getElementById("nine-color").style.display="block";
+            document.getElementById("nine-video").style.display="block";
         }
         else{
-            document.getElementById("nine-color").style.display="none";
+            document.getElementById("nine-video").style.display="none";
         }
         //10
         if (eight == true && two == true){
@@ -302,17 +302,17 @@ window.addEventListener("resize", function() {
         }
         //12
         if (twelve == true){
-            document.getElementById("twelve-color").style.display="block";
+            document.getElementById("twelve-video").style.display="block";
         }
         else{
-            document.getElementById("twelve-color").style.display="none";
+            document.getElementById("twelve-video").style.display="none";
         }
         //13
         if (one == true && thirteen == true){
-            document.getElementById("thirteen-color").style.display="block";
+            document.getElementById("thirteen-video").style.display="block";
         }
         else{
-            document.getElementById("thirteen-color").style.display="none";
+            document.getElementById("thirteen-video").style.display="none";
         }
         //14 
         if (two == true && thirteen == true){
@@ -323,10 +323,10 @@ window.addEventListener("resize", function() {
         }
         //15
         if (fifteen == true){
-            document.getElementById("fifteen-color").style.display="block";
+            document.getElementById("fifteen-video").style.display="block";
         }
         else{
-            document.getElementById("fifteen-color").style.display="none";
+            document.getElementById("fifteen-video").style.display="none";
         }
       
     }
