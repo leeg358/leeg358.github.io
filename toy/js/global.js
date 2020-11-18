@@ -39,57 +39,57 @@ window.addEventListener("load", function() {
 
         //0
         if (zero == true) {
-            document.getElementById("zero-color").style.display="block";
+            document.getElementById("zero-video").style.display="block";
         }
         else{
-            document.getElementById("zero-color").style.display="none";
+            document.getElementById("zero-video").style.display="none";
         }
 
         //1 
         if (one == true && y < topBottomQuarter){
-            document.getElementById("one-color").style.display="block";
+            document.getElementById("one-video").style.display="block";
         }
         else{
-            document.getElementById("one-color").style.display="none";
+            document.getElementById("one-video").style.display="none";
         }
         //2
         if (two == true && y < topBottomQuarter){
-            document.getElementById("two-color").style.display="block";
+            document.getElementById("two-video").style.display="block";
         }
         else{
-            document.getElementById("two-color").style.display="none";
+            document.getElementById("two-video").style.display="none";
         }
 
         //3
         if (three == true){
-            document.getElementById("three-color").style.display="block";
+            document.getElementById("three-video").style.display="block";
         }
         else{
-            document.getElementById("three-color").style.display="none";
+            document.getElementById("three-video").style.display="none";
         }
         
         //4
         if (four == true && x < leftRightQuarter){
-            document.getElementById("four-color").style.display="block";        
+            document.getElementById("four-video").style.display="block";        
         }
         else{
-            document.getElementById("four-color").style.display="none";
+            document.getElementById("four-video").style.display="none";
         }
 
         //5
         if (four == true && one == true){
-            document.getElementById("five-color").style.display="block";
+            document.getElementById("five-video").style.display="block";
         }
         else{
-            document.getElementById("five-color").style.display="none";
+            document.getElementById("five-video").style.display="none";
         }
 
         //6
         if (two == true && four == true){
-            document.getElementById("six-color").style.display="block";        
+            document.getElementById("six-video").style.display="block";        
         }
         else{
-            document.getElementById("six-color").style.display="none";
+            document.getElementById("six-video").style.display="none";
         }
         //7
         if (four == true && x > leftRightQuarter*3){
@@ -100,10 +100,10 @@ window.addEventListener("load", function() {
         }
         //8
         if (eight == true && x < leftRightQuarter){
-            document.getElementById("eight-color").style.display="block";
+            document.getElementById("eight-video").style.display="block";
         }
         else{
-            document.getElementById("eight-color").style.display="none";
+            document.getElementById("eight-video").style.display="none";
         }
         //9
         if (eight == true && one == true){
@@ -114,17 +114,17 @@ window.addEventListener("load", function() {
         }
         //10
         if (eight == true && two == true){
-            document.getElementById("ten-color").style.display="block";
+            document.getElementById("ten-video").style.display="block";
         }
         else{
-            document.getElementById("ten-color").style.display="none";
+            document.getElementById("ten-video").style.display="none";
         }
         //11
         if (eight == true && x > leftRightQuarter*3){
-            document.getElementById("eleven-color").style.display="block";
+            document.getElementById("eleven-video").style.display="block";
         }
         else{
-            document.getElementById("eleven-color").style.display="none";
+            document.getElementById("eleven-video").style.display="none";
         }
         //12
         if (twelve == true){
@@ -142,10 +142,10 @@ window.addEventListener("load", function() {
         }
         //14 
         if (two == true && thirteen == true){
-            document.getElementById("fourteen-color").style.display="block";
+            document.getElementById("fourteen-video").style.display="block";
         }
         else{
-            document.getElementById("fourteen-color").style.display="none";
+            document.getElementById("fourteen-video").style.display="none";
         }
         //15
         if (fifteen == true){
@@ -213,57 +213,57 @@ window.addEventListener("resize", function() {
 
         //0
         if (zero == true) {
-            document.getElementById("zero-color").style.display="block";
+            document.getElementById("zero-video").style.display="block";
         }
         else{
-            document.getElementById("zero-color").style.display="none";
+            document.getElementById("zero-video").style.display="none";
         }
 
         //1 
         if (one == true && y < topBottomQuarter){
-            document.getElementById("one-color").style.display="block";
+            document.getElementById("one-video").style.display="block";
         }
         else{
-            document.getElementById("one-color").style.display="none";
+            document.getElementById("one-video").style.display="none";
         }
         //2
         if (two == true && y < topBottomQuarter){
-            document.getElementById("two-color").style.display="block";
+            document.getElementById("two-video").style.display="block";
         }
         else{
-            document.getElementById("two-color").style.display="none";
+            document.getElementById("two-video").style.display="none";
         }
 
         //3
         if (three == true){
-            document.getElementById("three-color").style.display="block";
+            document.getElementById("three-video").style.display="block";
         }
         else{
-            document.getElementById("three-color").style.display="none";
+            document.getElementById("three-video").style.display="none";
         }
         
         //4
         if (four == true && x < leftRightQuarter){
-            document.getElementById("four-color").style.display="block";        
+            document.getElementById("four-video").style.display="block";        
         }
         else{
-            document.getElementById("four-color").style.display="none";
+            document.getElementById("four-video").style.display="none";
         }
 
         //5
         if (four == true && one == true){
-            document.getElementById("five-color").style.display="block";
+            document.getElementById("five-video").style.display="block";
         }
         else{
-            document.getElementById("five-color").style.display="none";
+            document.getElementById("five-video").style.display="none";
         }
 
         //6
         if (two == true && four == true){
-            document.getElementById("six-color").style.display="block";        
+            document.getElementById("six-video").style.display="block";        
         }
         else{
-            document.getElementById("six-color").style.display="none";
+            document.getElementById("six-video").style.display="none";
         }
         //7
         if (four == true && x > leftRightQuarter*3){
@@ -274,10 +274,10 @@ window.addEventListener("resize", function() {
         }
         //8
         if (eight == true && x < leftRightQuarter){
-            document.getElementById("eight-color").style.display="block";
+            document.getElementById("eight-video").style.display="block";
         }
         else{
-            document.getElementById("eight-color").style.display="none";
+            document.getElementById("eight-video").style.display="none";
         }
         //9
         if (eight == true && one == true){
@@ -288,17 +288,17 @@ window.addEventListener("resize", function() {
         }
         //10
         if (eight == true && two == true){
-            document.getElementById("ten-color").style.display="block";
+            document.getElementById("ten-video").style.display="block";
         }
         else{
-            document.getElementById("ten-color").style.display="none";
+            document.getElementById("ten-video").style.display="none";
         }
         //11
         if (eight == true && x > leftRightQuarter*3){
-            document.getElementById("eleven-color").style.display="block";
+            document.getElementById("eleven-video").style.display="block";
         }
         else{
-            document.getElementById("eleven-color").style.display="none";
+            document.getElementById("eleven-video").style.display="none";
         }
         //12
         if (twelve == true){
@@ -316,10 +316,10 @@ window.addEventListener("resize", function() {
         }
         //14 
         if (two == true && thirteen == true){
-            document.getElementById("fourteen-color").style.display="block";
+            document.getElementById("fourteen-video").style.display="block";
         }
         else{
-            document.getElementById("fourteen-color").style.display="none";
+            document.getElementById("fourteen-video").style.display="none";
         }
         //15
         if (fifteen == true){

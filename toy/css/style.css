@@ -158,6 +158,72 @@ h1{
     z-index: -1;
 }
 
+#one-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#two-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#three-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#four-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#five-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#six-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
 #seven-video{
     object-fit: cover;
     width: 100vw;
@@ -169,7 +235,40 @@ h1{
     z-index: -1;
 }
 
+#eight-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
 #nine-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#ten-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#eleven-video{
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -192,6 +291,17 @@ h1{
 }
 
 #thirteen-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: -1;
+}
+
+#fourteen-video{
     object-fit: cover;
     width: 100vw;
     height: 100vh;
