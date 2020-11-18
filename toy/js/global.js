@@ -8,14 +8,7 @@ window.addEventListener("load", function() {
     var leftRightQuarter = leftRight*.5;
     var topBottomQuarter = topBottom*.5;
 
-    //store all .colors in array
-    var colorList = [];
-    (function(){
-        var elements = document.getElementsByClassName("colors");
-        for (var i=0; i < elements.length; i++){
-            colorList.push(elements[i].innerHTML);
-        }
-    })();
+
 
 
 
