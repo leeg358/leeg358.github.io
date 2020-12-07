@@ -1,39 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+  
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  /* All the snapping stuff */
+.scroll-container {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+  
+/* PAGE 1 */
+section {
+    padding: 1rem;
+    
+    display: block;
+    position: relative;
+
+    background-color: white;
+  }
+  
+h1{
+    font-family: helvetica;
+    font-size: 10vw;
+    margin: -10 0 0 10;
+}
+
+#home-links{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 3vw;
+    position: absolute;
+    bottom: 0;
+    line-height: 140%;
+    margin: 0 0 20 10;
+}
+
+/* PAGE 2 */
+section:nth-child(2n) {
+    background-color: white;
+    flex-direction: row;
+  }
+  
+h2{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 7vw;
+    margin: 14vH 0 5 10;
+}
+/* PAGE 3 */
+section:nth-child(3n) {
+    background-color: white;
+  }
+
+h4{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 9vh;
+    margin: 0 0 20 10;
+    line-height: 11vh;
+    text-decoration: none;
+    cursor: default;
+    
+}
+
+#interview{
+    margin: 3.5vh 0 15 10;
+    font-style: normal;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:hover {
+    text-decoration: none;
+    color: black;
+  }
+  
+a:active {
+    text-decoration: none;
+    color: black;
+  } 
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+/*
 body{
     margin: 0;
     height: 3vh;
 }
 
-#scroll{
-    height: 1vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    height: 100vh;
-    width: 100vw;
-    scroll-snap-align: start;
-
-    flex-basis: 50%;
-    max-height: 100vh;
-    overflow-y: scroll;
-    border: 1px solid gray;
-    scroll-snap-type: y mandatory;
+.wrapper{
+    display:flex;
 }
 
-#scroll section {
-
-    scroll-snap-align: start;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-
+.container{
+    flex-basis: fill;
+  max-height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  scroll-snap-type: y mandatory;
 }
 
-section{
+div{
     scroll-snap-align: start;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-  }
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
+
 
 #home{
     height: 100vh;
