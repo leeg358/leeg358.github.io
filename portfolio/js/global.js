@@ -1,11 +1,14 @@
 window.addEventListener("load", function() {
 
-    var interview = document.getElementById('interview');
-    var allHtml = document.getElementById('all-html');
-    var nametag = document.getElementById('nametag');
-    var expressiveText = document.getElementById('expressive-text');
-    var abstractedWeb = document.getElementById('abstracted-web');
-    var toy = document.getElementById('toy');
+    var interview = document.getElementById('interview-link');
+    var allHtml = document.getElementById('all-html-link');
+    var nametag = document.getElementById('nametag-link');
+    var expressiveText = document.getElementById('expressive-text-link');
+    var abstractedWeb = document.getElementById('abstracted-web-link');
+
+    var toy = document.getElementById('toy-link');
+    var toyOne = document.getElementById('toy-link-one');
+
 
 
    
@@ -64,16 +67,35 @@ abstractedWeb.addEventListener("mouseleave", function(event){
     event.target.innerHTML = "ABSTRACTED WEB ➔";
 })
 
+
 toy.addEventListener("mouseenter", function(event){
+    event.target.innerText = "toy ➔";
     event.target.style.fontFamily = "Happy Times";
-    event.target.innerHTML = "<em>toy</em> ➔";
+    event.target.style.fontStyle = "italic"
 })
 
 toy.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
-    event.target.innerHTML = "TOY ➔";
+    event.target.innerText = "TOY ➔";
+    event.target.style.fontStyle = "normal";
+})
+
+toyOne.addEventListener("mouseenter", function(event){
+    event.target.innerText = "toy";
+    event.target.style.fontFamily = "Happy Times";
+    event.target.style.fontStyle = "italic";
+    event.target.style.fontSize= "4vw";
+    event.target.style.lineHeight="0";
+})
+
+toyOne.addEventListener("mouseleave", function(event){
+    event.target.style.fontFamily = "helvetica";
+    event.target.innerText = "TOY";
+    event.target.style.fontStyle = "normal";
+    event.target.style.fontSize= "3vw";
 })
 
 
 
-})
+});
+

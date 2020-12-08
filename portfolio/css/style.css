@@ -37,15 +37,24 @@ h1{
     margin: -10 0 0 10;
 }
 
-#home-links{
+#home-footer{
+    position: absolute;
+    bottom:0;
+
+    margin: 0 0 20 10;
+}
+
+.home-links{
     font-family: helvetica;
     font-weight: 400;
     font-size: 3vw;
-    position: absolute;
-    bottom: 0;
-    line-height: 140%;
+   
+
+    line-height: 5vh;;
     margin: 0 0 20 10;
 }
+
+
 
 /* PAGE 2 */
 section:nth-child(2n) {
@@ -62,6 +71,7 @@ h2{
 /* PAGE 3 */
 section:nth-child(3n) {
     background-color: white;
+    
   }
 
 h4{
@@ -71,12 +81,17 @@ h4{
     margin: 0 0 20 10;
     line-height: 11vh;
     text-decoration: none;
-    cursor: default;
+    font-style: normal;
+
     
 }
 
-#interview{
+#interview-link{
     margin: 3.5vh 0 15 10;
+    font-style: normal;
+}
+
+#toy-link{
     font-style: normal;
 }
 
@@ -100,82 +115,78 @@ a:active {
     color: black;
   } 
 
+/* project page*/
 
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-/*
-body{
-    margin: 0;
-    height: 3vh;
+.main-click{
+    width: 30vw;
+    height: 100vh;
+    z-index: 5;
+    position: fixed;
+    cursor:w-resize;
 }
 
-.wrapper{
-    display:flex;
-}
-
-.container{
-    flex-basis: fill;
-  max-height: 100vh;
-  width: 100vw;
-  overflow-y: scroll;
-  border: 1px solid gray;
-  scroll-snap-type: y mandatory;
-}
-
-div{
-    scroll-snap-align: start;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-
-
-#home{
+#project-page{
     height: 100vh;
     width: 100vw;
-    margin:0;
-    position: absolute;
 }
 
-#home-links{
+#short-desc{
     font-family: helvetica;
     font-weight: 400;
     font-size: 3vw;
     position: absolute;
+    line-height: 140%;
+    margin: -15 0 20 20;
+}
+
+.desc-link{
     bottom: 0;
-    line-height: 60px;
-    margin: 0 0 10 15;
-}
-
-h1{
-    font-family: helvetica;
-    font-size: 10vw;
-    margin: 0 0 5 15;
-}
-
-#about{
-    height: 100vh;
-    width: 100vw;
-    top: 100%;
     position: absolute;
-    
+    margin: 0 0 20 10;
+    z-index: 10;
 
-}
 
-h2{
     font-family: helvetica;
     font-weight: 400;
-    font-size: 6vw;
-    margin: 0 0 5 15;
+    font-size: 3vw;
 }
+
+.project-link{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin: 0 36 20 0;
+
+
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+video{
+    display: block;
+    margin: 0 auto; 
+    margin-top: 15vh;
+    width: 50vw;
+
+}
+
+/*description popup*/
+#description{
+    font-family: helvetica;
+    font-weight: 400;
+    font-size: 4vw;
+    position: absolute;
+    line-height: 140%;
+    margin: 0 20 20 20;
+    padding-right: 20;
+    
+}
+
+.click{
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+}
+
