@@ -28,10 +28,14 @@ window.addEventListener("load", function() {
 interview.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>interview</em> ➔";
+
+    document.getElementById("interview-image").style.opacity = "100";
 })
 interview.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerHTML = "INTERVIEW ➔";
+
+    document.getElementById("interview-image").style.opacity = "0";
 })
 interviewOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "interview";
@@ -51,10 +55,14 @@ interviewOne.addEventListener("mouseleave", function(event){
 allHtml.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>all html</em> ➔";
+
+    document.getElementById("allhtml-image").style.opacity = "100";
 })
 allHtml.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerHTML = "ALL HTML ➔";
+
+    document.getElementById("allhtml-image").style.opacity = "0";
 })
 allHtmlOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "all html";
@@ -74,10 +82,15 @@ allHtmlOne.addEventListener("mouseleave", function(event){
 nametag.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>nametag</em> ➔";
+
+    document.getElementById("nametag-image").style.opacity = "100";
+
 })
 nametag.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerHTML = "NAMETAG ➔";
+
+    document.getElementById("nametag-image").style.opacity = "0";
 })
 nametagOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "nametag";
@@ -97,10 +110,14 @@ nametagOne.addEventListener("mouseleave", function(event){
 expressiveText.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>expressive text</em> ➔";
+
+    document.getElementById("expressivetext-image").style.opacity = "100";
 })
 expressiveText.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerHTML = "EXPRESSIVE TEXT ➔";
+
+    document.getElementById("expressivetext-image").style.opacity = "0";
 })
 expressiveTextOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "expressive text";
@@ -120,10 +137,15 @@ expressiveTextOne.addEventListener("mouseleave", function(event){
 abstractedWeb.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>abstracted web</em> ➔";
+
+    document.getElementById("abstractedweb-image").style.opacity = "100";
+
 })
 abstractedWeb.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerHTML = "ABSTRACTED WEB ➔";
+
+    document.getElementById("abstractedweb-image").style.opacity = "0";
 })
 abstractedWebOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "abstracted web";
@@ -143,17 +165,18 @@ abstractedWebOne.addEventListener("mouseleave", function(event){
 
 //TOY
 toy.addEventListener("mouseenter", function(event){
-    event.target.innerText = "toy ➔";
     event.target.style.fontFamily = "Happy Times";
-    event.target.style.fontStyle = "italic"
-})
+    event.target.innerHTML = "<em>toy</em> ➔";
 
+    document.getElementById("toy-image").style.opacity = "100";
+
+})
 toy.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
-    event.target.innerText = "TOY ➔";
-    event.target.style.fontStyle = "normal";
-})
+    event.target.innerHTML = "TOY ➔";
 
+    document.getElementById("toy-image").style.opacity = "0";
+})
 toyOne.addEventListener("mouseenter", function(event){
     event.target.innerText = "toy";
     event.target.style.fontFamily = "Happy Times";
@@ -161,7 +184,6 @@ toyOne.addEventListener("mouseenter", function(event){
     event.target.style.fontSize= "4vw";
     event.target.style.lineHeight="0";
 })
-
 toyOne.addEventListener("mouseleave", function(event){
     event.target.style.fontFamily = "helvetica";
     event.target.innerText = "TOY";

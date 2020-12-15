@@ -82,13 +82,23 @@ h4{
     line-height: 11vh;
     text-decoration: none;
     font-style: normal;
-
-    
 }
 
 #interview-link{
     margin: 3.5vh 0 15 10;
     font-style: normal;
+}
+
+img{
+    width: 49vw;
+    position: absolute;
+    top: 20vh;
+    right: 6vw;
+    opacity: 0;
+}
+
+#interview-image{
+  border: 1px solid black;
 }
 
 #toy-link{
@@ -168,7 +178,14 @@ video{
     margin: 0 auto; 
     margin-top: 15vh;
     width: 50vw;
+}
 
+#interview-video{
+  border: 1px solid black;
+}
+
+#nametag-video{
+  border: 1px solid black;
 }
 
 /*description popup*/
@@ -181,6 +198,7 @@ video{
     margin: 0 20 20 20;
     padding-right: 20;
     
+    
 }
 
 .click{
@@ -188,5 +206,5 @@ video{
     height: 100vh;
     z-index: 10;
     position: fixed;
+    cursor: crosshair;
 }
-
