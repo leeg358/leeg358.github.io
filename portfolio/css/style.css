@@ -223,8 +223,9 @@ video{
 }
   .home-links{
   
-  line-height: 3vh;
-  font-size: 3.5vw;
+      line-height: .5vh;
+      font-size: 3.5vw;
+      margin: 0 0 70 10;
 
 }
 
@@ -259,13 +260,29 @@ video{
   font-size: 20px;
 }
 #title{
-  font-size: 8vw;
+  font-size: 10vw;
+  line-height: 5vh;
+
 }
 video{
-  width: 100vw;
+  width: 90vw;
 }
-#interview-video{
-  width: 100vw;
+
+.desc-link{
+  bottom: 40;
+  font-size: 5vw;
 }
+
+.project-link{
+  bottom: 40;
+  font-size: 5vw;
+}
+#description{
+  
+  font-size: 7vw;
+
+  margin: 50 20 20 20;
+}
+
 
 }
