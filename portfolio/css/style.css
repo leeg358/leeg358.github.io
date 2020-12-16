@@ -180,8 +180,8 @@ a:active {
 video{
     display: block;
     margin: 0 auto; 
-    margin-top: 15vh;
-    width: 50vw;
+    margin-top: 10vh;
+    width: 40vw;
 }
 
 #interview-video{
