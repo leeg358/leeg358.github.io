@@ -27,8 +27,7 @@ if(window.innerWidth > 768){
 //INTERVIEW
 
 
-window.onload=function(){
-
+//window.onload=function(){
 
 
 interview.addEventListener("mouseenter", function(event){
@@ -199,5 +198,5 @@ toyOne.addEventListener("mouseleave", function(event){
 
 }}
 
-});
+);
 
