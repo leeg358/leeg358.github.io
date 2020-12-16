@@ -223,12 +223,13 @@ video{
 }
   .home-links{
       font-weight: 400;
-      line-height: .5vh;
+      line-height: 1vh;
       font-size: 3.5vw;
      
 }
 #home-footer{
   bottom: 15vh;
+  padding: 0 0 30 0;
 }
 
 /*page2*/
@@ -275,11 +276,13 @@ video{
 .desc-link{
   bottom: 60;
   font-size: 5vw;
+  padding: 0 0 70 0;
 }
 
 .project-link{
   bottom: 60;
   font-size: 5vw;
+  padding: 0 0 70 0;
 }
 #description{
   
