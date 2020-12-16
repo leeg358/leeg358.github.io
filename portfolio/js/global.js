@@ -19,12 +19,18 @@ window.addEventListener("load", function() {
     var toyOne = document.getElementById('toy-link-one');
 
 
-
-   
+let intViewportWidth = window.innerWidth;
+if(window.innerWidth > 768){   
 
 //show new font function
 
 //INTERVIEW
+
+
+window.onload=function(){
+
+
+
 interview.addEventListener("mouseenter", function(event){
     event.target.style.fontFamily = "Happy Times";
     event.target.innerHTML = "<em>interview</em> ➔";
@@ -191,7 +197,7 @@ toyOne.addEventListener("mouseleave", function(event){
     event.target.style.fontSize= "3vw";
 })
 
-
+}}
 
 });
 
